@@ -1,0 +1,49 @@
+.menu-bar{
+
+  display: flex;
+
+
+  direction: flex;
+  flex-direction:column;
+  width: 1200px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.menu-bar > ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+
+  }
+  .menu-bar > ul li{
+    margin-right: 20px;
+    list-style: none;
+    }
+
+.sign-up{
+  border: 1px solid rgb(255, 255, 255);
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  margin: 0 0 50px;
+  border-radius: 110px;
+  padding: 10px 45px;
+  min-width: 140px;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.login{
+  border: 1px solid rgb(255, 255, 255);
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  margin: 0 0 50px;
+  border-radius: 110px;
+  padding: 10px 45px;
+  min-width: 140px;
+  text-decoration: none;
+}
